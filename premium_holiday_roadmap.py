@@ -257,7 +257,7 @@ st.markdown(f"""
 <div class="brand-header">
     {logo_html}
     <div class="page-title">Holiday Calendar 2026</div>
-    <div class="page-subtitle">People & Culture • FinBox</div>
+    <div class="page-subtitle">People & Culture</div>
 </div>
 """, unsafe_allow_html=True)
 
