@@ -293,7 +293,7 @@ st.markdown(f"""
 # -----------------------------
 # 5. FILTER
 # -----------------------------
-c1, c2, c3 = st.columns([1, 4, 1])
+c1, c2, c3 = st.columns([2, 2, 2])
 with c2:
     locations = ["Bangalore", "Mumbai", "Gurgaon"]
     selected_loc = st.selectbox("Select Location", locations, index=0)
