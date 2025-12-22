@@ -54,7 +54,7 @@ def load_all_images(data_list, bg_file, logo_file):
 # 2. DATA ENTRY
 # -----------------------------
 raw_data = [
-    {"Date": "01-Jan-26", "Name": "New Year", "Day": "Thursday", "ImageFile": "new_year.png", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
+    {"Date": "01-Jan-26", "Name": "New Year", "Day": "Thursday", "ImageFile": "new_year.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
     {"Date": "15-Jan-26", "Name": "Makara Sankranti", "Day": "Thursday", "ImageFile": "makara_sankranti.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
     {"Date": "26-Jan-26", "Name": "Republic Day", "Day": "Monday", "ImageFile": "republic_day.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
     {"Date": "04-Mar-26", "Name": "Holi", "Day": "Wednesday", "ImageFile": "holi.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
@@ -76,7 +76,7 @@ df = pd.DataFrame(raw_data)
 
 # LOAD IMAGES INTO MEMORY NOW (Before rendering anything)
 # This forces the loading to happen once at startup, not during the render loop.
-logo_filename = "FinBox Logo with wordmark.png"
+logo_filename = "FinBox Logo with wordmark.jpg"
 img_cache = load_all_images(raw_data, bg_image_filename, logo_filename)
 
 # -----------------------------
