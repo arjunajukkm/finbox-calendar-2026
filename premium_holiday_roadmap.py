@@ -40,7 +40,7 @@ raw_data = [
     {"Date": "01-Jan-26", "Name": "New Year", "Day": "Thursday", "ImageFile": "new_year.png", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
     {"Date": "15-Jan-26", "Name": "Makara Sankranti", "Day": "Thursday", "ImageFile": "makara_sankranti.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
     {"Date": "26-Jan-26", "Name": "Republic Day", "Day": "Monday", "ImageFile": "republic_day.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
-    {"Date": "04-Mar-26", "Name": "Holi", "Day": "Wednesday", "ImageFile": "holi.JPG", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
+    {"Date": "04-Mar-26", "Name": "Holi", "Day": "Wednesday", "ImageFile": "holi.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
     {"Date": "19-Mar-26", "Name": "Ugadi / Gudhi Padwa", "Day": "Thursday", "ImageFile": "ugadi.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": False},
     {"Date": "03-Apr-26", "Name": "Good Friday", "Day": "Friday", "ImageFile": "good_friday.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
     {"Date": "01-May-26", "Name": "May Day", "Day": "Friday", "ImageFile": "may_day.jpg", "Bangalore": True, "Mumbai": True, "Gurgaon": True},
